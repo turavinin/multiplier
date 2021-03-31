@@ -11,7 +11,7 @@ let userResponse = () => {
   let response;
   // chech if the response is correct, or its null, or its empty
   do {
-    response = parseInt(prompt(`Write your response`));
+    response = parseInt(prompt(`Writee your response`));
   } while (!pattern.test(response) && response == '');
   if (response) {
     return response;
